@@ -1,0 +1,38 @@
+body {
+    font-family: "Segoe UI", sans-serif;
+}
+
+.hero {
+    background: linear-gradient(135deg, #44444E, #DBDBDB);
+    color: #DBDBDB;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.cursor {
+    display: inline-block;
+    color: #7A7A73;
+    animation: blink 1s infinite;
+    font-weight: bold;
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.portfolio-card {
+    transition: transform 0.3s;
+}
+
+.portfolio-card:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #DBDBDB;
+    text-align: center;
+    padding: 20px 0;
+}
+    
